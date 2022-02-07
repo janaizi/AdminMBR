@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  
+  <servlet>
+    <description></description>
+    <display-name>Flogin</display-name>
+    <servlet-name>Flogin</servlet-name>
+    <jsp-file>/jsp/functions/flogin.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Flogin</servlet-name>
+    <url-pattern>/flogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Flogout</display-name>
+    <servlet-name>Flogout</servlet-name>
+    <jsp-file>/jsp/functions/flogout.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Flogout</servlet-name>
+    <url-pattern>/flogout</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>Dashboard</display-name>
+    <servlet-name>Dashboard</servlet-name>
+    <jsp-file>/jsp/pages/dashboard.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dashboard</servlet-name>
+    <url-pattern>/dashboard</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Login</display-name>
+    <servlet-name>Login</servlet-name>
+    <jsp-file>/jsp/pages/login.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
